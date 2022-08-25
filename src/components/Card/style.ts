@@ -6,7 +6,7 @@ import {
 const { height } = Dimensions.get('window');
 
 export default StyleSheet.create({
-  card:{
+  card: {
     height: height - 300,
     justifyContent: 'center',
     alignItems: 'center',
@@ -27,9 +27,9 @@ export default StyleSheet.create({
     flex: 1,
     elevation: 2,
     marginBottom: 2,
-    width: '100%'
+    width: '100%',
   },
-  imageDescriptionContainer:{
+  imageDescriptionContainer: {
     justifyContent: 'flex-end',
     alignItems: 'flex-start',
     flexDirection: 'column',
@@ -39,8 +39,13 @@ export default StyleSheet.create({
     bottom: 10
   },
   text: {
+    backgroundColor: '#363636',
+    borderRadius: 5,
+    opacity: 0.8,
+    paddingHorizontal: 8,
+    paddingVertical: 4,
     textAlign: 'center',
-    fontSize: 20,
+    fontSize: 18,
     fontFamily: 'Avenir',
     color: '#fff',
     textShadowColor: '#000',
